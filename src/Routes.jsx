@@ -6,10 +6,10 @@ import HOMEPAGE from "pages/HOMEPAGE";
 
 const ProjectRoutes = () => {
   let element = useRoutes([
-    { path: "/", element: <Home /> },
+    { path: "/dfewe", element: <Home /> },
     { path: "*", element: <NotFound /> },
     {
-      path: "homepage",
+      path: "/",
       element: <HOMEPAGE />,
     },
   ]);
